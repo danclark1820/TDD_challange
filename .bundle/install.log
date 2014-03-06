@@ -1,0 +1,11 @@
+# Logfile created on 2014-03-06 14:57:30 -0500 by logger.rb/44203
+I, [2014-03-06T14:57:30.955210 #3924]  INFO -- : 0:  coderay (1.1.0) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2014-03-06T14:57:30.955607 #3924]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-03-06T14:57:30.955943 #3924]  INFO -- : 0:  method_source (0.8.2) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/method_source-0.8.2.gemspec
+I, [2014-03-06T14:57:30.956258 #3924]  INFO -- : 0:  slop (3.4.7) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/slop-3.4.7.gemspec
+I, [2014-03-06T14:57:30.956561 #3924]  INFO -- : 0:  pry (0.9.12.6) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/pry-0.9.12.6.gemspec
+I, [2014-03-06T14:57:30.956940 #3924]  INFO -- : 0:  rspec-core (2.14.8) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/rspec-core-2.14.8.gemspec
+I, [2014-03-06T14:57:30.957254 #3924]  INFO -- : 0:  rspec-expectations (2.14.5) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/rspec-expectations-2.14.5.gemspec
+I, [2014-03-06T14:57:30.957598 #3924]  INFO -- : 0:  rspec-mocks (2.14.6) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/rspec-mocks-2.14.6.gemspec
+I, [2014-03-06T14:57:30.957881 #3924]  INFO -- : 0:  rspec (2.14.1) from /Users/danielclark/.rvm/gems/ruby-2.1.0/specifications/rspec-2.14.1.gemspec
+I, [2014-03-06T14:57:30.958158 #3924]  INFO -- : 0:  bundler (1.5.1) from /Users/danielclark/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
