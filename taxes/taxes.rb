@@ -18,15 +18,13 @@ class Citizen
   end
 end
 
-Citizens = []
+
 CSV.foreach('../taxes.csv', headers: true) do |row|
-  Citizens<<Citizen.new(row[0], row[1], row[2].to_f, row[3].to_f, row[4].to_f)
+  row = Citizen.new(row[0], row[1], row[2].to_f, row[3].to_f, row[4].to_f)
+    if row.tax_refund > 0
+      puts "#{row.first_name} #{row.last_name} will recieve a refund of $#{"%0.2f" % row.tax_refund}"
+    else
+      puts "#{row.first_name} #{row.last_name} owes $#{"%0.2f" % row.tax_refund.abs} in tax"
+    end
 end
 
-Citizens.each do |row|
-  if row.tax_refund > 0
-    puts "#{row.first_name} #{row.last_name} will recieve a refund of $#{"%0.2f" % row.tax_refund}"
-  else
-    puts "#{row.first_name} #{row.last_name} owes $#{"%0.2f" % row.tax_refund.abs} in taxes"
-  end
-end
